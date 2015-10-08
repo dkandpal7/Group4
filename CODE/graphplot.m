@@ -32,6 +32,7 @@ ylabel('number of nodes having that degree')
 row_index = A_9_3(:,2) >= sum;       %get all the nodes whose degree greater than the setting threshold
 supernode = A_9_3(row_index,:)
 
+%c=find(b>=5)
 % figure(1)
  %get the average
 % a=var(b)  %get the square of the standard deviation
@@ -42,4 +43,3 @@ supernode = A_9_3(row_index,:)
 % 
 % %subplot(2,2,1)
 % 
-
